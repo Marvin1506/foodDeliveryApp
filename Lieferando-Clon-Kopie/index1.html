@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Material/Favicon/favicon-32x32.png">
+    <title>Lieferando</title>
+    <script src="script1.js"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+
+<body onload="init()">
+    <div id="white-background-div" class="white-background-div display-none"></div>
+    <div id="content-basket-handy-tablet" class="content-basket-handy-tablet display-none">
+        <div class="flexbox-thanks-text" id="flexbox-thanks-text">
+            <p class="thank-you-order-text" id="thank-you-order-text">
+                Vielen Dank für deine Bestellung, dein Essen kommt schnellstmöglich! <br><br> Falls du noch eine Bestellung aufgeben willst, klicke auf Bestellung!
+            </p>
+            <button onclick="backToWebsite()" id="another-order-button" class="another-order-button">Bestellung</button>
+        </div>
+    </div>
+    
+<Header>
+    <img class="header-logo" src="Material/Logo/Logo.png" alt="">
+
+    <img class="header-logo" src="Material/Favicon/Menu.png" alt="">
+</Header>
+
+<div class="content-wrapper">
+
+    <div class="content">
+
+        <button onclick="showBasketButtonMobileTablet()" id="button-content" class="button-content">Warenkorb</button>
+
+        <div class="main-container">
+            <div class="fixed-picture-container">
+                <img class="fixed-picture" src="Material/Logo/PastaPicture.jpg" alt="Pasta Picture">
+            </div>
+
+            <div class="first-container">
+                <img class="first-container-picture" src="Material/Logo/Essen.jpg" alt="">
+            </div>
+
+            <div class="second-container">
+                <h1 class="restaurant-name">
+                    Paradise Noodles
+                </h1>
+
+                <p class="reviews">
+                    Bewertungen (4,2 von 5 Sternen)
+                </p>
+            </div>
+        </div>
+
+        <div class="third-container">
+            <svg class="arrow-size" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Artboard-49</title><g id="Right-2" data-name="Right">
+                <path d="M14.707,11.293l-4-4A1,1,0,0,0,9,8v8a1,1,0,0,0,1.707.707l4-4A1,1,0,0,0,14.707,11.293Z" style="fill:#ff8e31"/></g>
+            </svg>
+
+            <div class="third-container-padding">
+                <a class="third-container-link" href="#pizza-headline-picture">Pizzagerichte</a>
+            </div>
+
+            <div class="third-container-padding">
+                <a class="third-container-link" href="#nudeln-headline-picture">Nudelgerichte</a>
+            </div>
+
+            <div class="third-container-padding">
+                <a class="third-container-link" href="#snacks-headline-picture">Snacks</a>
+            </div>
+
+        </div>
+
+        <div class="fourth-container-picture">
+            <img id="pizza-headline-picture" class="recipe-container-picture" src="Material/Logo/Pizza.jpg" alt="">
+
+        </div>
+
+        <div class="fifth-container">
+            <h2 id="fifth-container-headline" class="fifth-container-headline">Pizzagerichte</h2>
+        </div>
+
+        <div class="gericht-container" id="content"></div>
+
+        <div class="fourth-container-picture">
+            <img id="nudeln-headline-picture" class="recipe-container-picture" src="Material/Logo/Nudeln.jpg" alt="">
+        </div>
+
+        <div>
+            <h2 class="fifth-container-headline">Nudelgerichte</h2>
+        </div>
+
+        <div class="gericht-container" id="content2"></div>
+
+        <div class="fourth-container-picture">
+            <img id="snacks-headline-picture" class="recipe-container-picture" src="Material/Logo/Snacks.jpg" alt="">
+        </div>
+
+        <div>
+            <h2 class="fifth-container-headline">Snacks</h2>
+        </div>
+
+        <div class="gericht-container" id="content3"></div>
+
+    </div>
+
+    <div id="basket-wrapper" class="basket-wrapper">
+        <div id="basket" class="basket">
+            <h3 class="static-basket-headline">Warenkorb</h3>
+            <div class="seperator-under-static-headline"></div>
+            <div id="basket-order" class="basket-order"></div>
+        </div>
+        <div id="total-price" class="final-price-order-div">Gesamtpreis</div>
+        <div id="total-price1" class="final-price-order-div-1">
+            <button onclick="orderButtonCounterAndPriceReset()" id="order-button" class="order-button">Bestellen</button>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <a class="Impressum-Datenschutz" href="">Impressum</a>
+
+    <a class="Impressum-Datenschutz" href="">Datenschutz</a>
+
+</footer>
+
+</body>
+
+</html>
