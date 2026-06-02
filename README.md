@@ -37,7 +37,8 @@ https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/Liefer
 
 https://github.com/user-attachments/assets/597b3b1d-8f1b-4161-8b82-0ca05004fdf5
 
-Future Improvements
+# Future Improvements
+
 Search functionality
 Customer reviews
 Order history
