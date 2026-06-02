@@ -1,8 +1,8 @@
-##Food Delivery Web App
+# Food Delivery Web App
 
 A responsive food delivery web application inspired by modern online ordering platforms. The project was built using HTML, CSS, and JavaScript, focusing on dynamic shopping cart functionality, responsive design, and interactive user experience.
 
-##Features
+## Features
 Responsive design for desktop and mobile devices
 Interactive restaurant menu
 Dynamic shopping cart functionality
@@ -29,11 +29,11 @@ Responsive web design
 User interface development
 Smooth scrolling and navigation techniques
 
-##Live Demo
+## Live Demo
 
 https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/Lieferando-Clon-Kopie/index1.html#snacks-headline-picture)
 
-##Preview
+## Preview
 
 https://github.com/user-attachments/assets/597b3b1d-8f1b-4161-8b82-0ca05004fdf5
 
