@@ -31,9 +31,10 @@ Smooth scrolling and navigation techniques
 
 ## Live Demo
 
-https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/Lieferando-Clon-Kopie/index1.html#snacks-headline-picture)
+https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/foodDeliveryApp/Lieferando-Clon-Kopie/index1.html
 
 ## Preview
+
 
 https://github.com/user-attachments/assets/597b3b1d-8f1b-4161-8b82-0ca05004fdf5
 
